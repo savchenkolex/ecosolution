@@ -1,8 +1,12 @@
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import css from "./Header.module.css";
 
 export default function Header (props) {
 
     return (<>
-        <p>This is the header</p>
+        <div className="container"  >
+            <p>This is the header</p>
+            <BurgerMenu />
+        </div>
     </>);
 }
