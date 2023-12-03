@@ -1,0 +1,58 @@
+.headerbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 146px;
+}
+
+.logoLink {
+    display: block;
+    margin: 0;
+}
+
+.logo {
+    width: 269px;
+    height: 40px;
+}
+
+.burgerBox {
+    display: flex;
+    flex-direction: row;
+    gap: 12px
+}
+
+.getintouch {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 760px) {
+    .getintouch {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    width: 160px;
+    height: 40px;
+
+    border-radius: 500px ;
+    color: #173D33;
+    background-color: #97D28B ;
+    
+    text-decoration: none;
+    }
+
+    .gdot {
+        border-radius: 50%;
+        width: 14px;
+        height: 14px;
+        background-color: #173D33;
+    }
+
+    .headerbox {
+        padding-bottom: 168px;
+    }
+}

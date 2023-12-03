@@ -3,6 +3,10 @@ import css from './BurgerMenu.module.css';
 export default function BurgerMenu (props) {
 
     return (<>
-        <p>This is a BurgerMenu</p>
+        <div className={css.burgerBox}>
+            <span className={css.burgerIcon}></span>
+            <span className={css.burgerIcon}></span>
+            <span className={css.burgerIcon}></span>
+        </div>
     </>);
 }

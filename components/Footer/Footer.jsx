@@ -2,5 +2,11 @@ import css from './Footer.module.css';
 
 export default function Footer (props) {
 
-    return (<><p>This is the footer</p></>);
+    return (<>
+        <div>
+            <div className="container">
+                <p>This is the footer</p>
+            </div>
+        </div>
+        </>);
 }
