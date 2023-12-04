@@ -5,7 +5,7 @@ export default function Faq (props) {
     return (<>
         <div>
             <div className="container">
-                <p>Fuck you element</p>
+                <h2 className='section-header'>Frequently Asked Questions</h2>
             </div>
         </div>
     </>);

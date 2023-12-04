@@ -1,11 +1,5 @@
 @import 'node_modules/modern-normalize/modern-normalize.css';
 
-
-/* :global(:root) {
-    --font-fira-sense: 'FiraSense', sans-serif;
-    --font-oswald: 'OswaldFont', sans-serif;
-} */
-
 :root {
     --color-dark-green: #173D33;
     --color-light-green: #97D28B;
@@ -15,10 +9,12 @@ html {
     scroll-behavior: smooth;
   }
 
-.body {
-    background-color: #EAEDF1;
+body {
+    /* background-color: #F3F5FA; */
     font-family: "FiraFont", sans-serif;
     color: var(--color-dark-green);
+    background: #F3F5FA;
+
 }
 
 .container {
@@ -27,6 +23,17 @@ html {
     max-width: 480px;
     padding-left: 20px;
     padding-right: 20px;
+    
+}
+
+.section-header {
+    font-family: "OswaldFont", sans-serif;
+    color: var(--color-dark-green);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
 }
 
 

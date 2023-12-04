@@ -1,10 +1,17 @@
+.headerSection {
+    position: sticky;
+    top: 0;
+    
+    padding-bottom: 146px;
+}
+
 .headerbox {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     padding-top: 36px;
-    padding-bottom: 146px;
+    background: #F3F5FA;
 }
 
 .logoLink {

@@ -5,7 +5,7 @@ export default function ContactUs (props) {
     return (<>
         <div>
             <div className="container">
-                <p>This is Contact Us</p>
+                <h2 className='section-header'>Contact us</h2>
             </div>
         </div>
     </>);

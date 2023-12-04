@@ -1,5 +1,5 @@
 .mainSection {
-    padding-bottom: 24px;
+    /* padding-bottom: 24px; */
     color: var(--color-dark-green);
     font-family: "FiraFont", sans-serif;
 }
@@ -25,6 +25,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 24px;
 }
 
 .mainDescription {
@@ -50,5 +51,35 @@
     display: inline-flex;
     align-items: center;
     gap: 12px;
+}
+
+.learnMoreArrowRight {
+    width: 32px;
     height: 32px;
+}
+
+.topContacts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 16px;
+    letter-spacing: -0.64px;
+    font-weight: 400;
+
+    border-top: 1px solid var(--color-light-green);
+    padding-top: 24px;
+    padding-bottom: 28px;
+}
+
+.topContacts a {
+    text-decoration: none;
+    color: var(--color-dark-green);
+    
+}
+
+.topContacts p {
+    display: none;
 }

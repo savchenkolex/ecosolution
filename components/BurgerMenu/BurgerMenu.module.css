@@ -30,7 +30,7 @@
 }
 
 .backdrop {
-    position: absolute;
+    position: fixed;
     top: 0;
     /* bottom: 0; */
     right: 0;
@@ -41,6 +41,7 @@
     backdrop-filter: blur(2px);
     padding-top: 36px;
     padding-right: 20px;
+    z-index: 100;
     
     transition: background-color 500ms linear,
                 top 250ms ease-in,
@@ -49,6 +50,8 @@
                 left 250ms ease-in,
                 width 250ms ease-in,
                 height 250ms ease-in;
+    overflow: hidden;
+    
 
 }
 
@@ -130,6 +133,10 @@
 
 .menuLink {
     font-family: 'FiraSense';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.96px;
     color: #FFFFFF40;
     text-decoration: none;
     display: flex; 
@@ -143,7 +150,7 @@
     
 }
 
-.menuLink:active {
+.menuLinkCurrent {
     color: #97D28B;
 }
 
@@ -161,9 +168,6 @@
 
 @media screen and (min-width: 1280px) {
 
-    .backdrop {
-        
-        transition: background-color 500ms linear;
-    }
+   
 
 }

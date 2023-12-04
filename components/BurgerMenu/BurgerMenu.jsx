@@ -47,25 +47,25 @@ export default function BurgerMenu (props) {
                 <button className={css.menuBtnClose} onClick={menuHandler} ><span>close</span></button>
                 <ul className={css.menuList}>
                     <li className={css.menuListItem}>
-                        <a href="#" className={css.menuLink}>Main</a>
+                        <a href="#sectionmain" className={css.menuLink}>Main</a>
                     </li>
                     <li className={css.menuListItem}>
-                        <a href="#" className={css.menuLink}>About</a>
+                        <a href="#sectionabout" className={css.menuLink}>About</a>
                     </li>
                     <li className={css.menuListItem}>
-                        <a href="#" className={css.menuLink}>Service</a>
+                        <a href="#sectionservice" className={css.menuLink}>Service</a>
                     </li>
                     <li className={css.menuListItem}>
-                        <a href="#" className={css.menuLink}>Cases</a>
+                        <a href="#sectioncases" className={css.menuLink}>Cases</a>
                     </li>
                     <li className={css.menuListItem}>
-                        <a href="#" className={css.menuLink}>FAQ</a>
+                        <a href="#sectionfaq" className={css.menuLink}>FAQ</a>
                     </li>
                     <li className={css.menuListItem}>
-                        <a href="#" className={css.menuLink}>Customers</a>
+                        <a href="#sectioncustomers" className={css.menuLink}>Customers</a>
                     </li>
                     <li className={css.menuListItem}>
-                        <a href="#" className={css.menuLink}>Contact Us</a>
+                        <a href="#sectioncontactus" className={css.menuLink}>Contact Us</a>
                     </li>
                 </ul>
             </div>
