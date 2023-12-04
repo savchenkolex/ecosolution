@@ -7,7 +7,7 @@ import Logo from "../../public/logo_ecosolution.svg";
 export default function Header (props) {
     
     return (<>
-    <div>
+    <div className={css.headerSection}>
         <div className="container"  >
             <div className={css.headerbox}>
                 <a href="/ecosolution" className={css.logoLink}>

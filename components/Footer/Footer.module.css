@@ -1,0 +1,14 @@
+.footerBox {
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'FiraSans';
+
+    border-top: 1px solid #97D28B;
+
+}
+
+.footerRight {
+    
+}
