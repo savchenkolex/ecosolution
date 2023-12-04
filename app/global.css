@@ -6,13 +6,19 @@
     --font-oswald: 'OswaldFont', sans-serif;
 } */
 
+:root {
+    --color-dark-green: #173D33;
+    --color-light-green: #97D28B;
+}
+
 html {
     scroll-behavior: smooth;
   }
 
 .body {
     background-color: #EAEDF1;
-    font-family: var(--font-fira-sense);
+    font-family: "FiraFont", sans-serif;
+    color: var(--color-dark-green);
 }
 
 .container {
