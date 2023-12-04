@@ -11,7 +11,7 @@ html {
 
 body {
     /* background-color: #F3F5FA; */
-    font-family: "FiraFont", sans-serif;
+    font-family: "Fira Sans", sans-serif;
     color: var(--color-dark-green);
     background: #F3F5FA;
 
@@ -27,7 +27,7 @@ body {
 }
 
 .section-header {
-    font-family: "OswaldFont", sans-serif;
+    font-family: "Oswald", sans-serif;
     color: var(--color-dark-green);
     font-size: 28px;
     font-style: normal;

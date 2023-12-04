@@ -1,6 +1,7 @@
 .electricitySection {
-
+    text-align: center;
 }
+
 
 .electricityCounter {
     color: var(--color-light-green);
@@ -11,6 +12,9 @@
     font-weight: 700;
     line-height: 1;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 
 }
 
@@ -18,4 +22,5 @@
     color: var(--color-dark-green);
     font-size: 24px;
     font-weight: 400;
+    text-transform: none;
 }

@@ -1,7 +1,7 @@
 .mainSection {
     /* padding-bottom: 24px; */
     color: var(--color-dark-green);
-    font-family: "FiraFont", sans-serif;
+    font-family: "Fira Sans", sans-serif;
 }
 
 .mainBox {
@@ -11,7 +11,7 @@
 }
 
 .mainHeader {
-    font-family: "OswaldFont", sans-serif;
+    font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 36px;
@@ -38,7 +38,7 @@
 
 .learnMoreBtn {
     text-decoration: none;
-    font-family: "FiraFont", sans-serif;
+    font-family: "Fira Font", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.12;

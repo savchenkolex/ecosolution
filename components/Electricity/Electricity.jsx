@@ -8,7 +8,8 @@ export default function Electricity (props) {
                 <h2 className='section-header'>
                     Electricity we produced for all time
                 </h2>
-                <p className={css.electricityCounter}>1.134.147.814 
+                <p className={css.electricityCounter}>
+                    <span>1.134.147.814</span> 
                     <span className={css.kWh}>kWh</span>
                 </p>
             </div>
