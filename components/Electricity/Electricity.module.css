@@ -20,7 +20,7 @@
 .electricityCounter {
     color: var(--color-light-green);
     text-align: center;
-    font-family: "Oswald", sans-serif;
+    font-family:  var(--font-oswald), sans-serif;
     font-style: normal;
     font-size: 48px;
     font-weight: 700;

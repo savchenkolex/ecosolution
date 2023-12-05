@@ -11,7 +11,7 @@ html {
 
 body {
     /* background-color: #F3F5FA; */
-    font-family: "Fira Sans", sans-serif;
+    font-family: var(--font-fira), sans-serif;
     color: var(--color-dark-green);
     background: #F3F5FA;
 
@@ -42,8 +42,8 @@ body {
 }
 
 .regular-text {
-    font-family: "Fira Sans", sans-serif;
-    
+    font-family: var(--font-fira), sans-serif;
+
     text-align: justify;
     font-size: 16px;
     font-weight: 400;
