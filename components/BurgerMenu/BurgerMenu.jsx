@@ -34,7 +34,7 @@ export default function BurgerMenu (props) {
           };
 
 
-    },[menuOpen, menuHandler])
+    },[menuOpen])
 
     return (<>
         <button className={css.burgerBox} onClick={menuHandler}>

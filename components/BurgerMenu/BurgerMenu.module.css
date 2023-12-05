@@ -132,7 +132,7 @@
 }
 
 .menuLink {
-    font-family: 'FiraSense';
+    font-family: var(--font-fira), sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;

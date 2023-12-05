@@ -5,7 +5,7 @@ import { Fira_Sans, Oswald } from "next/font/google";
 export const FiraFont = Fira_Sans({
   subsets: ["latin"],
   weight: "400",
-  variable: "--font-fira",
+  variable: "--font-fira-sans",
 });
 
 export const OswaldFont = Oswald({
