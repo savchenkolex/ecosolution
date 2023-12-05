@@ -10,7 +10,7 @@ export default function Main(props) {
           <div className={css.mainBox}>
             <h1 className={css.mainHeader}>RENEWABLE ENERGY For any task</h1>
             <div className={css.mainBoxText}>
-              <p className={css.mainDescription}>
+              <p className="regular-text">
                 Development and implementation of renewable non-polluting energy
                 sources, generating power generation using energy wind, sun,
                 water, biomass

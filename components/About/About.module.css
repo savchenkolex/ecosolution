@@ -1,0 +1,63 @@
+.sectionAbout {
+    padding-bottom: 36px;
+}
+
+.gridBox {
+    display: grid;
+    grid-template-columns: repeat(2, 148px);
+    grid-template-rows: repeat(2, 197px);
+    gap: 24px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 36px;
+    margin-bottom: 0;
+}
+
+.gridItem {
+    background: #EAEDF1;
+    padding: 12px;
+}
+
+.cardTitle {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 33px;
+    border-bottom: 1px solid var(--color-light-green);
+}
+
+.opennes::before {
+    content: url('../../assets/icons/maximize-circle.svg');
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.responsibility::before {
+    content: url('../../assets/icons/global-edit.svg');
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.innovation::before {
+    content: url('../../assets/icons/cpu-charge.svg');
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.quality::before {
+    content: url('../../assets/icons/ranking.svg');
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.cardText {
+    font-size: 14px;
+}
