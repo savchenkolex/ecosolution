@@ -53,16 +53,10 @@ export default function BurgerMenu (props) {
                         <a href="#sectionabout" className={css.menuLink}>About</a>
                     </li>
                     <li className={css.menuListItem}>
-                        <a href="#sectionservice" className={css.menuLink}>Service</a>
-                    </li>
-                    <li className={css.menuListItem}>
                         <a href="#sectioncases" className={css.menuLink}>Cases</a>
                     </li>
                     <li className={css.menuListItem}>
                         <a href="#sectionfaq" className={css.menuLink}>FAQ</a>
-                    </li>
-                    <li className={css.menuListItem}>
-                        <a href="#sectioncustomers" className={css.menuLink}>Customers</a>
                     </li>
                     <li className={css.menuListItem}>
                         <a href="#sectioncontactus" className={css.menuLink}>Contact Us</a>

@@ -1,5 +1,19 @@
 .electricitySection {
     text-align: center;
+    padding-bottom: 36px;
+}
+
+.decorationBox {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.decorationLine {
+    display: block;
+    width: 1px;
+    height: 48px;
+    border-left: 1px solid var(--color-light-green);
 }
 
 
@@ -15,7 +29,8 @@
     display: flex;
     align-items: center;
     gap: 8px;
-
+    margin-top: 24px;
+    margin-bottom: 0;
 }
 
 .kWh {
@@ -24,3 +39,4 @@
     font-weight: 400;
     text-transform: none;
 }
+

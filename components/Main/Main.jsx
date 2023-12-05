@@ -5,7 +5,7 @@ import arrrowRight from "../../assets/icons/arrow-right.svg";
 export default function Main(props) {
   return (
     <>
-      <div id="mainsection" className={css.mainSection}>
+      <div id="sectionmain" className={css.mainSection}>
         <div className="container">
           <div className={css.mainBox}>
             <h1 className={css.mainHeader}>RENEWABLE ENERGY For any task</h1>
@@ -35,9 +35,7 @@ export default function Main(props) {
               <a href="mailto:office@ecosolution.com">office@ecosolution.com</a>
               <p>ecosolution © 2023</p>
             </div>
-            <Image 
-
-            />
+            <div className={css.heroImage}></div>
           </div>
         </div>
       </div>

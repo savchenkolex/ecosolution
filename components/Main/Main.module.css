@@ -1,13 +1,13 @@
 .mainSection {
-    /* padding-bottom: 24px; */
     color: var(--color-dark-green);
     font-family: "Fira Sans", sans-serif;
+    padding-bottom: 36px;
 }
 
 .mainBox {
     display: flex;
     flex-direction: column;
-
+    
 }
 
 .mainHeader {
@@ -71,7 +71,7 @@
 
     border-top: 1px solid var(--color-light-green);
     padding-top: 24px;
-    padding-bottom: 28px;
+    padding-bottom: 36px;
 }
 
 .topContacts a {
@@ -82,4 +82,10 @@
 
 .topContacts p {
     display: none;
+}
+
+.heroImage {
+    width: 320px;
+    height: 200px;
+    background: url(../../assets/images/wind-turbine-clean-energy.webp);
 }
