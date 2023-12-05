@@ -12,3 +12,35 @@
 .footerRight {
     
 }
+
+.facebookIco {
+    width: 32px;
+    height: 32px;
+    fill: #173D33;
+    stroke: #173D33;
+}
+
+.InstagramIco {
+    fill: #173D33;
+    stroke: #173D33;
+}
+
+.goTopBtn {
+    background-color: var(--color-light-green);
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonArrowToTop {
+    transform: rotate(270deg);
+    fill: #173D33;
+    stroke: #173D33;
+    width: 16px;
+    height: 16px;
+}
