@@ -1,4 +1,8 @@
 import "./global.css";
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&family=Oswald:wght@400;700&display=swap');
+</style>
+
 // import { Fira_Sans, Oswald } from "next/font/google";
 
 // export const FiraFont = Fira_Sans({
@@ -19,7 +23,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="ecosolution/favicon.png" sizes="any" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
           href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
@@ -30,7 +34,7 @@ export default function RootLayout({ children }) {
         <link
           href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
           rel="stylesheet"
-        />
+        /> */}
       </head>
       <body>{children}</body>
     </html>
