@@ -10,7 +10,7 @@ export default function Footer(props) {
       <div>
         <div className="container">
           <div className={css.footerBox}>
-            <div className={css.footerLeft}>
+            <div className={css.footerTopLine}>
               <a href="/ecosolution" className={css.logoBox}>
                 <Image
                   src={LogoImg}
@@ -19,11 +19,6 @@ export default function Footer(props) {
                   height={40}
                 />
               </a>
-              <p className={css.footerAdressBox}>
-                79005, Ukraine, Lvivstreet. Shota Rustaveli, 7
-              </p>
-            </div>
-            <div className={css.footerContacts}>
               <div className={css.socialMedia}>
                 <a href="http://facebook.com">
                   <svg
@@ -55,9 +50,6 @@ export default function Footer(props) {
                   </svg>
                 </a>
               </div>
-              <a href="mailto:office@ecosolution.com">office@ecosolution.com</a>
-            </div>
-            <div className={css.footerRight}>
               <button className={css.goTopBtn}>
                 <svg
                   className={css.buttonArrowToTop}
@@ -72,6 +64,12 @@ export default function Footer(props) {
                   <path d="M4.668 15.332c-0.368 0-0.667 0.298-0.667 0.667v0c0 0.368 0.298 0.667 0.667 0.667v0h22.439c0.368 0 0.667-0.298 0.667-0.667v0c0-0.368-0.298-0.667-0.667-0.667v0z"></path>
                 </svg>
               </button>
+            </div>
+            <div className={css.footerSecondLine}>
+              <p className={css.footerAdressBox}>
+                79005, Ukraine, Lvivstreet. Shota Rustaveli, 7
+              </p>
+              <a href="mailto:office@ecosolution.com">office@ecosolution.com</a>
               <p className={css.copyright}>ecosolution © 2023</p>
             </div>
           </div>
