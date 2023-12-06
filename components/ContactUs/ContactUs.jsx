@@ -10,14 +10,34 @@ export default function ContactUs (props) {
                 <h2 className={`${css.titleContactUs} section-header`}>Contact us</h2>
                 <div className={css.contactBox}>
                     <div className={css.textContacts}>
-
+                        <ul>
+                            <li>
+                                <p>Phone:</p>
+                                <ul>
+                                    <li>23234234</li>
+                                    <li>23234234</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>E-mail:</p>
+                                <ul>
+                                    <li>office@ecosolution.com</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Address:</p>
+                                <ul>
+                                    <li>79005, Ukraine, Lvivstreet. Shota Rustaveli, 7</li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <div className={css.contactForm}>
                         <Formik 
-                        initialValues={{name: "name",
-                                        email: "email",
-                                        phone: "phone"
-
+                        initialValues={{name: "",
+                                        email: "",
+                                        phone: "",
+                                        message: ""
                                     }}
                         validate={""}
                         onSubmit={(values)=>{
@@ -26,16 +46,26 @@ export default function ContactUs (props) {
                         
                         >
                         <Form>
-                            <label htmlFor='name'>Full Name:</label>
-                            <Field type='text' name='name' />
-                               
-                            <ErrorMessage name='name' component="div" />
-                            <Field type='email' name='email' />
-                            <ErrorMessage name='email' component="div" />
-                            <Field type='phone' name='phone' />
-                            <ErrorMessage name='phone' component="div" />
-                            <Field type='textarea' name='message' />
-                            <ErrorMessage name='texarea' component="div" />
+                            <label htmlFor='name'>
+                                <span>Full Name:</span>
+                                <Field type='text' name='name' />
+                                <ErrorMessage name='name' component="div" />
+                            </label>
+                            <label htmlFor='email'>
+                                <span>E-mail:</span>  
+                                <Field type='email' name='email' />
+                                <ErrorMessage name='email' component="div" />
+                            </label>
+                            <label htmlFor='phone'>
+                                <span>Phone:</span>
+                                <Field type='phone' name='phone' />
+                                <ErrorMessage name='phone' component="div" />
+                            </label>
+                            <label htmlFor='message'>
+                                <span>Message:</span>
+                                <Field type='textarea' name='message' />
+                                <ErrorMessage name='texarea' component="div" />
+                            </label>
                             <button type='submit'>Submit</button>
                         </Form>
                         </Formik>
