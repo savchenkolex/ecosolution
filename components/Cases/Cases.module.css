@@ -40,13 +40,13 @@
 }
 
 .slideItem {
-    width: 321px;
+    max-width: 321px;
     height: 318px;
     background-color: #EAEDF1;
 }
 
 .slideImage {
-    width: 100%;
+    width: 320px;
     height: 168px;
 }
 
