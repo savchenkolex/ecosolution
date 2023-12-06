@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import Logo from "../../public/logo_ecosolution.svg";
 
-export default function Header (props) {
+export default function Header ({menuHandler}) {
     
     return (<>
     <div className={css.headerSection}>
@@ -18,7 +18,7 @@ export default function Header (props) {
                             height={40} />
                 </a>
                 <div className={css.burgerBox} >
-                <BurgerMenu />
+                <BurgerMenu menuHandler={menuHandler} />
                     <a className={css.getintouch} href="#">
                         <span>Get in touch</span>
                         <span className={css.gdot}></span>

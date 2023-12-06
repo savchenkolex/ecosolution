@@ -1,5 +1,37 @@
-.fackentest {
-    padding: 100px;
-    border: 1px solid red;
-    color: darkblue;
+.menuHidden {
+    position: absolute;
+    top: 0%;
+    right: 0;
+    /* bottom: 50%; */
+    /* left: 50%; */
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    /* bottom: 0; */
+    right: 0;
+    /* left: 0; */
+    width: 100vw;
+    height: 100vh;
+    background-color: #173D3340 ;
+    backdrop-filter: blur(2px);
+    padding-top: 36px;
+    padding-right: 20px;
+    z-index: 100;
+    
+    transition: background-color 500ms linear,
+                top 250ms ease-in,
+                right 250ms ease-in,
+                bottom 250ms ease-in,
+                left 250ms ease-in,
+                width 250ms ease-in,
+                height 250ms ease-in;
+    overflow: hidden;
+    
+
 }

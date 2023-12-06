@@ -1,0 +1,26 @@
+.questionBox details summary {
+    list-style: none;
+}
+
+.questionBox details {
+    border-bottom: 1px solid var(--color-light-green);
+    padding-left: 24px;
+    position: relative;
+}
+
+.questionBox details summary::before {
+    content: "+";
+    /* margin-left: -15px; */
+    /* margin-right: 8px;
+    font-size: 16px; */
+    color: var(--color-light-green);
+    position: absolute;
+
+}
+
+.questionBox details[open] summary::before {
+    content: "-";
+    /* margin-right: 8px;
+    font-size: 16px; */
+    color: var(--color-dark-green);
+}

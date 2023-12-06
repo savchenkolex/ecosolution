@@ -10,7 +10,7 @@ export const FiraFont = Fira_Sans({
 
 export const OswaldFont = Oswald({
     subsets: ['latin'],
-    weight: ['400', '700'],
+    weight: ['400', '500', '600', '700'],
     variable: '--font-oswald',
 })
 
