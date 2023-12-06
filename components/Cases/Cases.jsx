@@ -5,6 +5,11 @@ import {Navigation, Pagination} from 'swiper/modules';
 import "swiper/css";
 import Image from "next/image";
 import arrow from "../../assets/icons/arrow.svg";
+import SlideImage1 from '../../assets/images/cases/slide-1.webp';
+import SlideImage2 from '../../assets/images/cases/slide-2.webp';
+import SlideImage3 from '../../assets/images/cases/slide-3.webp';
+import SlideImage4 from '../../assets/images/cases/slide-4.webp';
+import SlideImage5 from '../../assets/images/cases/slide-5.webp';
 
 export default function Cases(props) {
   return (
@@ -42,7 +47,9 @@ export default function Cases(props) {
             <SwiperSlide className={css.slideItem}>
               <Image 
               className={css.slideImage}
-
+              src={SlideImage1}
+              width={320}
+              height={168}
               />
               <div className={css.slideTitle}>
               <h3>Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”</h3>
@@ -56,7 +63,9 @@ export default function Cases(props) {
             <SwiperSlide className={css.slideItem}>
             <Image 
               className={css.slideImage}
-
+              src={SlideImage2}
+              width={320}
+              height={168}
               />
               <div className={css.slideTitle}>
               <h3>Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”</h3>
@@ -70,7 +79,9 @@ export default function Cases(props) {
             <SwiperSlide className={css.slideItem}>
             <Image 
               className={css.slideImage}
-
+              src={SlideImage3}
+              width={320}
+              height={168}
               />
               <div className={css.slideTitle}>
               <h3>Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”</h3>
@@ -84,7 +95,9 @@ export default function Cases(props) {
             <SwiperSlide className={css.slideItem}>
             <Image 
               className={css.slideImage}
-
+              src={SlideImage4}
+              width={320}
+              height={168}
               />
               <div className={css.slideTitle}>
               <h3>Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”</h3>
@@ -98,7 +111,9 @@ export default function Cases(props) {
             <SwiperSlide className={css.slideItem}>
             <Image 
               className={css.slideImage}
-
+              src={SlideImage5}
+              width={320}
+              height={168}
               />
               <div className={css.slideTitle}>
               <h3>Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”</h3>

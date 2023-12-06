@@ -3,6 +3,9 @@ const nextConfig = {
     reactStrictMode: true,
     output: 'export',
     basePath: '/ecosolution',
+    images: {
+        unoptimized: true
+    }
 
 }
 
