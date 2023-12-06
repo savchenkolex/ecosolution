@@ -34,17 +34,81 @@ export default function Cases(props) {
             </div>
           </div>
           <Swiper
-            spaceBetween={50}
-            slidesPerView={3}
+            // spaceBetween={50}
+            slidesPerView={1}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
           >
-            <SwiperSlide>
-              
+            <SwiperSlide className={css.slideItem}>
+              <Image 
+              className={css.slideImage}
+
+              />
+              <div className={css.slideTitle}>
+              <h3>Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”</h3>
+              <button className={css.slideButton} ></button>
+              </div>
+              <div className={css.slideInfo}>
+                <p>Wind Power for auto field irrigation</p>
+                <p>July 2023</p>
+              </div>
             </SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide className={css.slideItem}>
+            <Image 
+              className={css.slideImage}
+
+              />
+              <div className={css.slideTitle}>
+              <h3>Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”</h3>
+              <button className={css.slideButton} ></button>
+              </div>
+              <div className={css.slideInfo}>
+                <p>Wind Power for auto field irrigation</p>
+                <p>July 2023</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={css.slideItem}>
+            <Image 
+              className={css.slideImage}
+
+              />
+              <div className={css.slideTitle}>
+              <h3>Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”</h3>
+              <button className={css.slideButton} ></button>
+              </div>
+              <div className={css.slideInfo}>
+                <p>Wind Power for auto field irrigation</p>
+                <p>July 2023</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={css.slideItem}>
+            <Image 
+              className={css.slideImage}
+
+              />
+              <div className={css.slideTitle}>
+              <h3>Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”</h3>
+              <button className={css.slideButton} ></button>
+              </div>
+              <div className={css.slideInfo}>
+                <p>Wind Power for auto field irrigation</p>
+                <p>July 2023</p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={css.slideItem}>
+            <Image 
+              className={css.slideImage}
+
+              />
+              <div className={css.slideTitle}>
+              <h3>Lviv Region, Radekhiv town Private Enterprise “ZAKHIDNYI BUH”</h3>
+              <button className={css.slideButton} ></button>
+              </div>
+              <div className={css.slideInfo}>
+                <p>Wind Power for auto field irrigation</p>
+                <p>July 2023</p>
+              </div>
+            </SwiperSlide>
             
           </Swiper>
         </div>

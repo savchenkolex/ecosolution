@@ -38,3 +38,14 @@
 .leftArrow {
     transform: rotate(180deg);
 }
+
+.slideItem {
+    width: 321px;
+    height: 318px;
+    background-color: #EAEDF1;
+}
+
+.slideImage {
+    width: 321px;
+    height: 168px;
+}
