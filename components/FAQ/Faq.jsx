@@ -3,7 +3,7 @@ import css from './Faq.module.css';
 export default function Faq (props) {
 
     return (<>
-        <div id='sectionfaq'>
+        <div id='sectionfaq' className={css.sectionFAQ}>
             <div className="container">
                 <h2 className='section-header'>
                     Frequently Asked Questions

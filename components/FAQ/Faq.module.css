@@ -1,3 +1,6 @@
+.sectionFAQ {
+    padding-bottom: 36px;
+}
 .questionBox details summary {
     list-style: none;
     display: flex;
