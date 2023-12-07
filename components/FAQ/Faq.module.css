@@ -1,26 +1,60 @@
 .questionBox details summary {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 8px;
 }
 
 .questionBox details {
     border-bottom: 1px solid var(--color-light-green);
-    padding-left: 24px;
-    position: relative;
+    margin-top: 16px;
+    padding-bottom: 16px;
+}
+
+.questionBox details:last-child {
+    border: none;
 }
 
 .questionBox details summary::before {
-    content: "+";
-    /* margin-left: -15px; */
-    /* margin-right: 8px;
-    font-size: 16px; */
+    content: '\0002B';
     color: var(--color-light-green);
-    position: absolute;
-
 }
 
 .questionBox details[open] summary::before {
-    content: "-";
-    /* margin-right: 8px;
-    font-size: 16px; */
+    content: '\02013';
     color: var(--color-dark-green);
+}
+
+.questionBox details p {
+    padding-left: 16px;
+}
+
+.moreQuestions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactUsBtn {
+    text-decoration: none;
+    color: var(--color-dark-green);
+    background-color: var(--color-light-green);
+    border-radius: 500px;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    gap: 12px;
+    padding: 12px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactUsBtnDot {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100px;
+    background-color: var(--color-dark-green);
 }

@@ -50,6 +50,13 @@ export default function Faq (props) {
                         </p>
                     </details>
                 </div>
+                <div className={css.moreQuestions}>
+                    <p>Didn't find the answer to your question?</p>
+                    <a href="#sectioncontactus" className={css.contactUsBtn}>
+                        <span>Contact Us</span>
+                        <span className={css.contactUsBtnDot} ></span>
+                    </a>
+                </div>
             </div>
         </div>
     </>);
