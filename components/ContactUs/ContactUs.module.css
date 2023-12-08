@@ -1,18 +1,35 @@
 
-.contactList {
-list-style: none;
-padding-left: 0;
+.contactBox {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.contactList {
+    list-style: none;
+    padding-left: 0;
 }
 
 .contactList > li {
     margin-bottom: 24px;
 }
 
+.contactList > li > ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contactList > li > ul > li {
+    margin-bottom: 12px;
+    letter-spacing: -0.8px;
+    font-size: 20px;
+
+}
+
 .contactSubTitle {
 
     margin-top: 0;
     margin-bottom: 8px;
+    letter-spacing: -0.64px;
 }
 
 .socialMedia {
@@ -20,12 +37,43 @@ padding-left: 0;
     padding-left: 12px;
     display: flex;
     gap: 32px;
+    
+}
+
+.phoneList > li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.phoneList > li::before {
+    content: url(../../assets/icons/call.svg);
+    /* display: inline-block;
+    margin-right: 8px; */
+    width: 24px;
+    height: 24px;
+}
+
+.emailList > li::before {
+    content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3e%3cpath d='M9.333 3.667c-2.167 0-4.111.55-5.513 1.852S1.666 8.81 1.666 11.334v9.333c0 2.524.751 4.513 2.154 5.815s3.346 1.852 5.513 1.852h13.333c2.167 0 4.111-.549 5.513-1.852s2.154-3.291 2.154-5.815v-9.333c0-2.524-.751-4.513-2.154-5.815s-3.346-1.852-5.513-1.852zm0 2h13.333c1.833 0 3.223.45 4.154 1.315s1.513 2.209 1.513 4.352v9.333c0 2.143-.582 3.487-1.513 4.352s-2.32 1.315-4.154 1.315H9.333c-1.833 0-3.223-.451-4.154-1.315s-1.513-2.209-1.513-4.352v-9.333c0-2.143.582-3.487 1.513-4.352s2.32-1.315 4.154-1.315z'/%3e%3cpath d='M9.224 11.005a1.002 1.002 0 0 0-.67.368l-.002.002a1 1 0 0 0 .155 1.405l.002.002 4.159 3.333h.002c1.79 1.425 4.457 1.425 6.247 0l4.174-3.333a1 1 0 0 0 .155-1.408l.002.002a1 1 0 0 0-1.408-.155l.002-.002-4.172 3.333c-.956.761-2.793.76-3.75 0h-.003l-4.159-3.333a.994.994 0 0 0-.739-.214h.005z'/%3e%3c/svg%3e");
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.addressList > li::before {
+    content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3e%3cpath d='M11.396 3.409a3.642 3.642 0 0 0-1.716.482l-.003.003-5.773 3.305a3.636 3.636 0 0 0-1.849 3.174v12.974c0 1.503.569 2.807 1.669 3.445s2.513.487 3.813-.258v.003l3.13-1.787c.291-.165 1.278-.197 1.573-.047l.005.005 7 3.505.004.003.004.002a3.665 3.665 0 0 0 3.456-.096l.003-.003 5.773-3.305.005-.005a3.668 3.668 0 0 0 1.844-3.182V8.653c0-1.503-.572-2.807-1.672-3.445s-2.513-.487-3.813.258l-3.13 1.784c-.291.165-1.276.197-1.57.047l-.004-.003-.004-.002-7-3.492-.004-.003-.004-.002a3.722 3.722 0 0 0-1.737-.385zm.857 2.182 6.987 3.487h.005l.003.003a3.626 3.626 0 0 0 3.461-.091l3.133-1.786.003-.003c.887-.508 1.468-.464 1.815-.263s.674.686.674 1.716v12.974c0 .373-.514 1.257-.846 1.453l-5.768 3.302c-.282.16-1.277.191-1.586.039l-6.984-3.5a3.626 3.626 0 0 0-3.469.089h-.002l-3.133 1.786-.002.002c-.887.508-1.466.464-1.813.263s-.674-.686-.674-1.716V10.372c0-.364.502-1.244.841-1.438l5.771-3.305c.282-.16 1.277-.191 1.586-.039z'/%3e%3cpath d='M11.414 4.333a1 1 0 0 0-1 1v17.333a1 1 0 0 0 2 0V5.333a1 1 0 0 0-1-1zM20.974 7.826a1 1 0 0 0-1 1v17.841a1 1 0 0 0 2 0V8.826a1 1 0 0 0-1-1z'/%3e%3c/svg%3e");
+    display: inline-block;
+    margin-right: 8px;
 
 }
 
 .socialMediaLink {
     fill: var(--color-dark-green);
-   
+}
+
+.socialMediaLink svg {
+    width: 24px;
+    height: 24px;
 }
 
 .socialMediaLink:hover {

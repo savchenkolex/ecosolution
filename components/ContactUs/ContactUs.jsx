@@ -22,20 +22,20 @@ export default function ContactUs(props) {
               <ul className={css.contactList}>
                 <li>
                   <p className={css.contactSubTitle}>Phone:</p>
-                  <ul>
+                  <ul className={css.phoneList}>
                     <li>38 (098) 12 34 567</li>
                     <li>38 (093) 12 34 567</li>
                   </ul>
                 </li>
                 <li>
                   <p className={css.contactSubTitle}>E-mail:</p>
-                  <ul>
+                  <ul className={css.emailList}>
                     <li>office@ecosolution.com</li>
                   </ul>
                 </li>
                 <li>
                   <p className={css.contactSubTitle}>Address:</p>
-                  <ul>
+                  <ul className={css.addressList}>
                     <li>79005, Ukraine, Lvivstreet. Shota Rustaveli, 7</li>
                   </ul>
                 </li>
