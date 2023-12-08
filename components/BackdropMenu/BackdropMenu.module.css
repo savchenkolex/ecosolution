@@ -9,7 +9,7 @@
     padding-left: 24px;
     border-radius: 25px;
     backdrop-filter: blur(12.5px);
-
+    position: relative;
 }
 
 .menuBtnClose {
@@ -72,6 +72,21 @@
     color: white;
 }
 
+.socialMedia {
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.socialMediaIco {
+    fill: white;
+}
+
+.socialMediaIco:hover {
+    fill: var(--color-light-green);
+}
 
 
 @media screen and (min-width: 760px) { 
