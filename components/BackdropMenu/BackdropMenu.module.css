@@ -80,11 +80,11 @@
     bottom: 24px;
 }
 
-.socialMediaIco {
+.socialMediaLink {
     fill: white;
 }
 
-.socialMediaIco:hover {
+.socialMediaLink:hover {
     fill: var(--color-light-green);
 }
 

@@ -38,9 +38,9 @@ export default function BackdropMenu({ backdrop, menuHandler }) {
             </li>
           </ul>
           <div className={css.socialMedia}>
-            <a href="http://facebook.com">
+            <a href="http://facebook.com" className={css.socialMediaLink}>
               <svg
-                className={css.socialMediaIco}
+                
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -52,9 +52,9 @@ export default function BackdropMenu({ backdrop, menuHandler }) {
                 <path d="M12 1.667c-3.467 0-6.113 0.696-7.875 2.458s-2.458 4.408-2.458 7.875v8c0 3.467 0.696 6.113 2.458 7.875s4.408 2.458 7.875 2.458h8c3.467 0 6.113-0.696 7.875-2.458s2.458-4.408 2.458-7.875v-8c0-3.467-0.696-6.113-2.458-7.875s-4.408-2.458-7.875-2.458zM12 3.667h8c3.2 0 5.22 0.637 6.458 1.875s1.875 3.258 1.875 6.458v8c0 3.2-0.637 5.22-1.875 6.458s-3.258 1.875-6.458 1.875h-8c-3.2 0-5.22-0.637-6.458-1.875s-1.875-3.258-1.875-6.458v-8c0-3.2 0.637-5.22 1.875-6.458s3.258-1.875 6.458-1.875z"></path>
               </svg>
             </a>
-            <a href="https://instagram.com">
+            <a href="https://instagram.com" className={css.socialMediaLink}>
               <svg
-                className={css.socialMediaIco}
+                
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"

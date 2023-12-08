@@ -1,0 +1,33 @@
+
+.contactList {
+list-style: none;
+padding-left: 0;
+
+}
+
+.contactList > li {
+    margin-bottom: 24px;
+}
+
+.contactSubTitle {
+
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.socialMedia {
+    list-style: none;
+    padding-left: 12px;
+    display: flex;
+    gap: 32px;
+
+}
+
+.socialMediaLink {
+    fill: var(--color-dark-green);
+   
+}
+
+.socialMediaLink:hover {
+    fill: var(--color-light-green);
+}

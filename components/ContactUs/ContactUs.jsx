@@ -19,33 +19,33 @@ export default function ContactUs(props) {
           <h2 className={`${css.titleContactUs} section-header`}>Contact us</h2>
           <div className={css.contactBox}>
             <div className={css.textContacts}>
-              <ul>
+              <ul className={css.contactList}>
                 <li>
-                  <p>Phone:</p>
+                  <p className={css.contactSubTitle}>Phone:</p>
                   <ul>
                     <li>38 (098) 12 34 567</li>
                     <li>38 (093) 12 34 567</li>
                   </ul>
                 </li>
                 <li>
-                  <p>E-mail:</p>
+                  <p className={css.contactSubTitle}>E-mail:</p>
                   <ul>
                     <li>office@ecosolution.com</li>
                   </ul>
                 </li>
                 <li>
-                  <p>Address:</p>
+                  <p className={css.contactSubTitle}>Address:</p>
                   <ul>
                     <li>79005, Ukraine, Lvivstreet. Shota Rustaveli, 7</li>
                   </ul>
                 </li>
                 <li>
-                  <p>Social Media:</p>
+                  <p className={css.contactSubTitle}>Social Media:</p>
                   <ul className={css.socialMedia}>
                     <li>
-                      <a href="http://facebook.com">
+                      <a href="http://facebook.com" className={css.socialMediaLink}>
                         <svg
-                          className={css.facebookIco}
+                          className={css.socialMediaIco}
                           version="1.1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
@@ -59,9 +59,9 @@ export default function ContactUs(props) {
                       </a>
                     </li>
                     <li>
-                      <a href="https://instagram.com">
+                      <a href="https://instagram.com" className={css.socialMediaLink}>
                         <svg
-                          className={css.InstagramIco}
+                          className={css.socialMediaIco}
                           version="1.1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
