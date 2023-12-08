@@ -81,5 +81,24 @@
 .heroImage {
     width: 320px;
     height: 200px;
-    background: url(../../assets/images/wind-turbine-clean-energy.webp);
+    background: url(../../assets/images/wind-turbine-clean-energy.webp) no-repeat;
+}
+
+@media screen and (min-width: 760px) { 
+    .heroImage {
+        width: 708px;
+        height: 348px;
+        background: url(../../assets/images/wind-turbine-clean-energy-tab.webp) no-repeat;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .heroImage {
+        width: 1240px;
+        height: 524px;
+        background: url(../../assets/images/wind-turbine-clean-energy-desktop.webp) no-repeat;
+    }
+   
+
 }
